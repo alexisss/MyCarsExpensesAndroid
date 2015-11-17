@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alex.mycarsexpenses"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.alex.mycarsexpenses.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.alex.mycarsexpenses.ShowServices"
+            android:label="@string/title_activity_show_services" >
+        </activity>
+        <activity
+            android:name="com.alex.mycarsexpenses.ShowStats"
+            android:label="@string/title_activity_show_stats" >
+        </activity>
+        <activity
+            android:name="com.alex.mycarsexpenses.AddFillUp"
+            android:label="@string/title_activity_add_fill_up" >
+        </activity>
+        <activity
+            android:name="com.alex.mycarsexpenses.AllCars"
+            android:label="@string/title_activity_all_cars" >
+        </activity>
+        <activity
+            android:name="com.alex.mycarsexpenses.CarSettings"
+            android:label="@string/title_activity_car_settings" >
+        </activity>
+        <activity
+            android:name="com.alex.mycarsexpenses.ShowFillUps"
+            android:label="@string/title_activity_show_fill_ups" >
+        </activity>
+        <activity
+            android:name="com.alex.mycarsexpenses.FillUpSettings"
+            android:label="@string/title_activity_fill_up_settings" >
+        </activity>
+    </application>
+
+</manifest>
